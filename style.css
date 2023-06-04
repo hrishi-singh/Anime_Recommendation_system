@@ -8,8 +8,12 @@
     font-weight: normal;
     color: black;
 }
-
-.e1g8pov65,.st-c1{
+.e1g8pov65{
+    background-color: #e6e4d5;
+    color: black;
+    overflow-y: hidden;
+}
+.st-c1{
     background-color: #e6e4d5;
     color: black;
 }
@@ -43,7 +47,7 @@ top:-80px;
 
 
 div[data-testid="stHorizontalBlock"] p {
-    background-color: #d9d4bd;
+    background-color: #dad5c0;
     border: 1px solid rgba(0,0,0,0.1);
     border-radius: 0.75rem;
     text-align: center;
@@ -51,13 +55,27 @@ div[data-testid="stHorizontalBlock"] p {
     align-items: center;
     padding: 1rem 1.25rem;
     max-width: 20rem;
-    height: 200px;
+    height: 180px;
 }
-
+div[data-testid="stHorizontalBlock"] p:hover{
+    background-color: #fbff5a;
+    border: 1.2px solid black;
+    transform: translateY(-20px);
+    transition: ease-in-out;
+    transition-duration: 3ms;
+}
 div[data-testid="stHorizontalBlock"] {
     max-width: 45rem;
 }
 
 div[data-testid="stVerticalBlock"] input{
 color: black;
+}
+
+div[data-testid="stHorizontalBlock"] div[data-testid="stImage"] img{
+    position: absolute; 
+    margin: auto;
+    top: 135px;
+    left: -398px;
+
 }

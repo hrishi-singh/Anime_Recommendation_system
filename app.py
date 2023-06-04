@@ -3,8 +3,25 @@ import pickle
 import pandas as pd
 from PIL import Image
 
-image = Image.open('char1.png')
 
+page_bg_img = '''
+<style>
+.e1g8pov65{
+background-image: url("https://cdn.dribbble.com/users/642793/screenshots/17362730/media/c42f55137545c97f6214851614e1b9b1.png?compress=1&resize=768x576&vertical=top");
+background-size: cover;
+}
+</style>
+'''
+
+# st.markdown(page_bg_img, unsafe_allow_html=True)
+
+
+
+
+
+image = Image.open('char1.png')
+image2 = Image.open('char2.png')
+image3 = Image.open('char3.png')
 
 with open("style.css") as style:
     st.markdown(f"<style>{style.read()}</style>",unsafe_allow_html=True)
@@ -25,8 +42,16 @@ animes=pd.DataFrame(animes_dict)
 similarity=pickle.load(open('similar.pkl','rb'))
 
 
+c1,c2,c3 = st.columns(3)
+
+
+
 st.title('Anime Recommendation System')
 
+
+with st.container():
+    with c2:
+        st.image(image2)
 
 selected_anime=st.selectbox("",animes['title'].values)
 st.image(image)
