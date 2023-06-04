@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+
+#anime-recommendation-system{
+    font-size: 5rem;
+    font-family: 'Bebas Neue', sans-serif;
+    /* font-family: 'Fjalla One', sans-serif; */
+    font-weight: normal;
+    color: black;
+}
+
+.e1g8pov65,.st-c1{
+    background-color: #e6e4d5;
+    color: black;
+}
+
+.st-bx{
+    /* margin-left: 3rem; */
+    margin: auto;
+    /* margin-right: 3rem; */
+    max-width: 30rem;
+}
+
+.css-b3z5c9 {
+    padding: 0.25rem 2.5rem;
+    background-color: #fbff5a;
+    border: 1px solid black;
+}
+.row-widget.stButton{
+    display: flex;
+    justify-content: center;
+}
+
+.css-1y4p8pa{
+    max-width: 55rem;
+}
+
+.ebxwdo62 img{
+position:absolute;
+margin-left: 90%;
+top:-80px;
+}
+
+
+div[data-testid="stHorizontalBlock"] p {
+    background-color: #d9d4bd;
+    border: 1px solid rgba(0,0,0,0.1);
+    border-radius: 0.75rem;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    padding: 1rem 1.25rem;
+    max-width: 20rem;
+    height: 200px;
+}
+
+div[data-testid="stHorizontalBlock"] {
+    max-width: 45rem;
+}
+
+div[data-testid="stVerticalBlock"] input{
+color: black;
+}
