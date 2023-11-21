@@ -13,7 +13,7 @@ background-size: cover;
 </style>
 '''
 
-# st.markdown(page_bg_img, unsafe_allow_html=True)
+st.markdown(page_bg_img, unsafe_allow_html=True)
 
 
 
@@ -21,7 +21,6 @@ background-size: cover;
 
 image = Image.open('char1.png')
 image2 = Image.open('char2.png')
-image3 = Image.open('char3.png')
 
 with open("style.css") as style:
     st.markdown(f"<style>{style.read()}</style>",unsafe_allow_html=True)
@@ -48,13 +47,7 @@ c1,c2,c3 = st.columns(3)
 
 st.title('Anime Recommendation System')
 
-
-with st.container():
-    with c2:
-        st.image(image2)
-
 selected_anime=st.selectbox("",animes['title'].values)
-st.image(image)
 
 if st.button('Recommend'):
     rec=recommend(selected_anime)

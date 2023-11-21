@@ -4,9 +4,8 @@
 #anime-recommendation-system{
     font-size: 5rem;
     font-family: 'Bebas Neue', sans-serif;
-    /* font-family: 'Fjalla One', sans-serif; */
     font-weight: normal;
-    color: black;
+    color: white;
 }
 .e1g8pov65{
     background-color: #e6e4d5;
@@ -47,7 +46,7 @@ top:-80px;
 
 
 div[data-testid="stHorizontalBlock"] p {
-    background-color: #dad5c0;
+    background-color: #e8ba05;
     border: 1px solid rgba(0,0,0,0.1);
     border-radius: 0.75rem;
     text-align: center;
@@ -58,7 +57,7 @@ div[data-testid="stHorizontalBlock"] p {
     height: 180px;
 }
 div[data-testid="stHorizontalBlock"] p:hover{
-    background-color: #fbff5a;
+    background-color: #474804;
     border: 1.2px solid black;
     transform: translateY(-20px);
     transition: ease-in-out;
